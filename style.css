@@ -1,0 +1,139 @@
+ html{
+    /*height: 100%;  if i use linear-gradient then remove height from html*/
+ }  
+body{
+    /* background-image: linear-gradient(#4158D0,#C850C0,#FFCC70); */
+    background-color: #FF5151;
+    font-size: 1.25em;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid yellow;/* instead og <hr> tag */
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    display: flex; /*horizontal the boxes*/
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+.card1{
+    background-image: url(image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+}
+.card2{
+    background-image: url(image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+}
+.card3{
+    background-image: url(image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+}
+.card1, .card2, .card3{
+    padding: 30px ;
+    box-sizing: border-box;
+}
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+}
+.herobox2{
+    flex: 1;
+}
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* margin: 20px; */
+}
+p{
+    line-height: 1.75rem;
+    padding-bottom: 0.5rem;
+}
+.cards p{
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1rem;
+    /* margin: 10px 30px 20px 30px; */
+}
+.cards i{
+    font-size: 80px;
+    /* margin-top: 10px; */
+    color: yellow;
+}
+.mybutton{
+    background-color: white;
+    color: black;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 25px;
+    /* border-radius: 12px 0px 12px 0px; */
+    border-radius: 50px;
+    /* box-shadow: 5px 5px rgb(173, 65, 168); */
+}
+.mybutton:hover{
+    background-color: yellow;
+}
+a.mybutton{
+    display: inline-block;
+    margin-top: 10px;;
+}
+
+/* nav a.mybutton{
+    margin-left: 20px;
+} */
+
+.navbutton{
+    /* background-color: white; */
+    color: white;
+    padding: 11px 25px;
+    font-family: 'Playfair Display', serif;
+    border: 2px solid white;
+}
+.textmonialbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    /* i give margin-bottom bcz it's end of my website */
+}
+.tbox{
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
